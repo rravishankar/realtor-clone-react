@@ -46,8 +46,7 @@ export default function Profile() {
         toast.success("Profile details updated");
       }
     } catch (error) {
-      toast.error("Could not update the profile details")
-      
+      toast.error("Could not update the profile details") 
     }
   }
 
